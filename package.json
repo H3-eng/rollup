@@ -1,0 +1,28 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "rollup是一个Js模块打包器，可以将小块代码编译成大块复杂的代码。现在已经有很多类库都在使用 rollup 进行打包了，比如：react, vue, preact, three.js,moment, d3 等。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -w -c build/rollup.config.dev.js",
+    "build": "rollup -c build/rollup.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H3-eng/rollup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H3-eng/rollup/issues"
+  },
+  "homepage": "https://github.com/H3-eng/rollup#readme",
+  "devDependencies": {
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.2"
+  }
+}
