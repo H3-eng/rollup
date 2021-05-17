@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/H3-eng/rollup#readme",
   "devDependencies": {
+    "@typescript-eslint/parser": "^4.23.0",
     "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.2.4"
   },
   "dependencies": {
     "@babel/core": "^7.14.2"

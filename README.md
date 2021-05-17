@@ -21,3 +21,8 @@ webpack：强大而齐全
 └── src # 源码
     └── index.js
 
+
+# typescript
+typescript：ts解析器
+@typescript-eslint/parser：eslint ts解析器
+rollup-plugin-typescript2：ts转换器
